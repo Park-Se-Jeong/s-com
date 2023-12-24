@@ -1,13 +1,15 @@
 "use client";
 
+// import style from '@/app/(beforeLogin)/_component/login.module.css';
+// import { useState } from "react";
 import LoginModal from "@/app/(beforeLogin)/_component/LoginModal";
 
-// import style from '@/app/(beforeLogin)/_component/login.module.css';
-
 export default function Page() {
+
   return (
     <>
       <LoginModal />
     </>
   )
+
 }
